@@ -1,4 +1,4 @@
-package lesson1.animals;
+package com.lessons.lesson1.animals;
 // final в классе запрещает создавать наследников
 public final class Cat extends Animal{
     int clawsLength;

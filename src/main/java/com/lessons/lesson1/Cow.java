@@ -1,6 +1,6 @@
-package lesson1;
+package com.lessons.lesson1;
 
-import lesson1.animals.Animal;
+import com.lessons.lesson1.animals.Animal;
 
 //лежит не в пакете но имеет доступ потому что у полей модификатор protected
 public class Cow extends Animal {
