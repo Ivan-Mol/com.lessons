@@ -26,5 +26,4 @@ public class MainApp {
         System.out.println(box1.hashCode());
         System.out.println(box2.hashCode());
     }
-//закончил на 01:47:54
 }
