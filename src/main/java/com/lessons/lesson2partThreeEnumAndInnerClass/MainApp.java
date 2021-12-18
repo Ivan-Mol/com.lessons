@@ -18,6 +18,7 @@ public class MainApp {
             System.out.println(outherInt);
         }
     }
+//Так получается потому что внутренний не может существовать без внешнего, а внешний без внутреннего может.
     public static void main(String[] args) {
 
 
