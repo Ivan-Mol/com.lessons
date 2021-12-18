@@ -1,4 +1,4 @@
-package com.lessons.lesson2;
+package com.lessons.lesson2partOneInterfaces;
 
 public interface Swimable {
     //дефолтная реализация с 8 джавы

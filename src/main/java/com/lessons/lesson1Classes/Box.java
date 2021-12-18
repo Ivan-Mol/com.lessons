@@ -1,4 +1,4 @@
-package com.lessons.lesson1;
+package com.lessons.lesson1Classes;
 
 import java.util.Objects;
 

@@ -1,4 +1,4 @@
-package com.lessons.lesson2partTwo.Transport;
+package com.lessons.lesson2partTwoInterface.Transport;
 
 public class Car implements Transport {
     @Override

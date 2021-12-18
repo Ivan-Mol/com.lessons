@@ -1,6 +1,6 @@
-package com.lessons.lesson2partTwo;
+package com.lessons.lesson2partTwoInterface;
 
-import com.lessons.lesson2partTwo.Transport.Transport;
+import com.lessons.lesson2partTwoInterface.Transport.Transport;
 
 public class Human {
     String name;

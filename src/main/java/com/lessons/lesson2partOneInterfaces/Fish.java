@@ -1,4 +1,4 @@
-package com.lessons.lesson2;
+package com.lessons.lesson2partOneInterfaces;
 
 public class Fish implements Swimable{
     @Override

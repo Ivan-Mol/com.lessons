@@ -1,8 +1,8 @@
-package com.lessons.lesson2partTwo;
+package com.lessons.lesson2partTwoInterface;
 
-import com.lessons.lesson2partTwo.Transport.Car;
-import com.lessons.lesson2partTwo.Transport.Moto;
-import com.lessons.lesson2partTwo.Transport.Transport;
+import com.lessons.lesson2partTwoInterface.Transport.Car;
+import com.lessons.lesson2partTwoInterface.Transport.Moto;
+import com.lessons.lesson2partTwoInterface.Transport.Transport;
 
 public class MainApp {
     public static void main(String[] args) {

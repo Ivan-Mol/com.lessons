@@ -1,4 +1,4 @@
-package com.lessons.lesson1.animals;
+package com.lessons.lesson1Classes.animals;
 
 public abstract class Animal {
     //protected - доступ из пакета и классам наследникам

@@ -1,7 +1,7 @@
-package com.lessons.lesson1;
+package com.lessons.lesson1Classes;
 
-import com.lessons.lesson1.animals.Animal;
-import com.lessons.lesson1.animals.Cat;
+import com.lessons.lesson1Classes.animals.Animal;
+import com.lessons.lesson1Classes.animals.Cat;
 
 public class MainApp {
     public static void main(String[] args) {
