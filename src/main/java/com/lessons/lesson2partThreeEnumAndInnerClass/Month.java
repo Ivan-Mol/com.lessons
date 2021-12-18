@@ -1,4 +1,4 @@
-package com.lessons.lesson2partThreeEnum;
+package com.lessons.lesson2partThreeEnumAndInnerClass;
 //Перечисления
 public enum Month {
     //Список возможных вариантов перечисления

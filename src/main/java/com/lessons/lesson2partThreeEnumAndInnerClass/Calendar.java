@@ -1,4 +1,4 @@
-package com.lessons.lesson2partThreeEnum;
+package com.lessons.lesson2partThreeEnumAndInnerClass;
 
 public class Calendar {
     Month month = Month.APRIL;
