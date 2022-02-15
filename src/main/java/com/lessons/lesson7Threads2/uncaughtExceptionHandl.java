@@ -8,7 +8,7 @@ public class uncaughtExceptionHandl {
         Thread threadWithError = new Thread(new Runnable() {
             @Override
             public void run() {
-                int err = 10/0;
+                int err = 10 / 0;
                 System.out.println("end");
             }
         });
@@ -19,5 +19,9 @@ public class uncaughtExceptionHandl {
                 System.out.println("Error Catched");
             }
         });
+        double d = 1.1d;
+        float f = 2.2f;
+        f = (float) (d*2);
+        System.out.println(f);
     }
 }
