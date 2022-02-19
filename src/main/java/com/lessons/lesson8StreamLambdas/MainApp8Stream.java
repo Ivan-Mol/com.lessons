@@ -60,5 +60,11 @@ public class MainApp8Stream {
         System.out.println(integers.stream().anyMatch((s)->s>400));
         //noneMatch - ни один не должен соответсвовать.
         System.out.println(integers.stream().anyMatch((s)->s>0));
+
+        System.out.println();
+
+        ArrayList<Integer> nums = new ArrayList<>(Arrays.asList(1,2,3));
+        System.out.println(nums.stream().reduce(0,(a,b)->a+b));
     }
 }
+//01:34
