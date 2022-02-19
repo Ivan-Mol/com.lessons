@@ -53,5 +53,12 @@ public class MainApp8Stream {
         System.out.println();
         //district оставляет только уникальные элементы
         integers.stream().distinct().forEach((s)-> System.out.print(s+" "));
+        System.out.println();
+        //allMatch - все значения должны соответсвовать условию
+        System.out.println(integers.stream().allMatch((s)->s>=1));
+        //anyMatch - хотя бы один элемент должен соответствовать условию
+        System.out.println(integers.stream().anyMatch((s)->s>400));
+        //noneMatch - ни один не должен соответсвовать.
+        System.out.println(integers.stream().anyMatch((s)->s>0));
     }
 }
