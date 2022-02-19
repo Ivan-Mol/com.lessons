@@ -11,7 +11,7 @@ import java.util.stream.Stream;
 
 public class MainApp8Stream {
     public static void main(String[] args) {
-        List<Integer> integers = new ArrayList<Integer>(Arrays.asList(12,412,231,123,41,1,6,3,234,63,38));
+        List<Integer> integers = new ArrayList<Integer>(Arrays.asList(12,412,231,123,41,1,1,3,234,63,38));
         List<Integer> integers2 = integers.stream().filter(new Predicate<Integer>() {
             @Override
             public boolean test(Integer integer) {
@@ -50,5 +50,8 @@ public class MainApp8Stream {
                 return s.hashCode();
             }
         }).forEach((s)-> System.out.print(s+" "));
+        System.out.println();
+        //district оставляет только уникальные элементы
+        integers.stream().distinct().forEach((s)-> System.out.print(s+" "));
     }
 }
