@@ -61,10 +61,18 @@ public class MainApp8Stream {
         //noneMatch - ни один не должен соответсвовать.
         System.out.println(integers.stream().anyMatch((s)->s>0));
 
-        System.out.println();
-
+        //reduce
         ArrayList<Integer> nums = new ArrayList<>(Arrays.asList(1,2,3));
         System.out.println(nums.stream().reduce(0,(a,b)->a+b));
+
+        //числа в строковые зачение и в целую строку
+        System.out.println(integers.stream().map(new Function<Integer, String>() {
+            @Override
+            public String apply(Integer integer) {
+                return integer.toString();
+            }
+        }).collect(Collectors.joining(" разделитель ","Префикс ",".")));
+
     }
 }
 //01:34
